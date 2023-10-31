@@ -2,7 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Asegurar que el diseño es responsivo -->
     <title>Farmatic</title>
+    <style>
+        /* Estilos para que el body y html ocupen toda la pantalla */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Evitar barras de desplazamiento */
+        }
+        /* Estilo para que el contenido embebido ocupe toda la pantalla */
+        embed {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
 <embed src="https://fideeu.github.io/farmatic.github.io/document/farmatic.pdf" type="application/pdf" />
